@@ -4,7 +4,7 @@ services:
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
-    startCommand: strapi develop --watch-admin
+    startCommand: strapi develop
     healthCheckPath: /_health
     envVars:
       - key: NODE_VERSION
